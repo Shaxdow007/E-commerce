@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  font-family: "DM Sans", sans-serif;
+}
+.about-us {
+  min-height: 600px;
+  background-image: url("./assets/rayban.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.mobile {
+  box-shadow: -5px -5px 20px rgba(0, 0, 0, 0.199);
+}
+.bars {
+  width: 30px;
+  height: 15px;
+}
+.bars div {
+  height: 3px;
+  width: 100%;
+  background-color: black;
+  margin-bottom: 5px;
+  border-radius: 50px;
+}
